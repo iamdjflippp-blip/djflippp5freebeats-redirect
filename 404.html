@@ -18,5 +18,6 @@ var S="https://djflippp.com/pages/";var p=location.pathname.toLowerCase();var t=
 if(p.indexOf("/special-offer")===0)t="special-offer";
 else if(p.indexOf("/order-confirmation")===0)t="your-downloads-mif-k8x42q";
 else if(p.indexOf("/thank-you")===0)t="your-free-beats";
-location.replace(S+t);
+if(p.indexOf("guarant")>-1||p.indexOf("skip")>-1||p.indexOf("slot")>-1||p.indexOf("submit")>-1){location.replace("https://djflippp.com/"+location.search+"#kk-lanes");}
+else location.replace(S+t+location.search);
 </script></head><body><a href="https://djflippp.com/pages/free-beats">Get your 5 free beats</a></body></html>
